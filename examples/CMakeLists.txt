@@ -1,11 +1,11 @@
 cmake_minimum_required(VERSION 3.14)
 project(penum_examples)
 
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-set(CMAKE_CXX_FLAGS "-O3")
+add_executable(example_same_type example_same_type.cpp)
+target_include_directories(example_same_type PRIVATE "../include" )
 
-add_executable(example example.cpp)
-
-target_include_directories(example PRIVATE "../include" )
+add_executable(example_same_size example_same_size.cpp)
+target_include_directories(example_same_size PRIVATE "../include" )
