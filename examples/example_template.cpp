@@ -7,7 +7,7 @@ template <typename R>
 PENUM(result)
     PCASE(success, R)
     PCASE(error, std::string)
-PENUM_END
+PENUM_END;
 
 result<float> square_root(float v)
 {

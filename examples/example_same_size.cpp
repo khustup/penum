@@ -8,7 +8,7 @@ PENUM(fruit)
     PCASE(orange, double)
     PCASE(banana, std::string)
     PCASE(mango, int)
-PENUM_END
+PENUM_END;
 
 int main()
 {

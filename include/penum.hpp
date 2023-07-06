@@ -201,4 +201,4 @@ public: \
         switch_handler<0, FS ...>::handle(*this, fs ...); \
     } \
 \
-}; \
+} \

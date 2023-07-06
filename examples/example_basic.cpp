@@ -6,7 +6,7 @@
 PENUM(result)
     PCASE(success, double)
     PCASE(error, std::string)
-PENUM_END
+PENUM_END;
 
 result square_root(double v)
 {
